@@ -7,6 +7,8 @@
 Powerful AviUtl (AUP2) file layer processing tool with compact GUI design.
 
 ## 🖼️ Feature Demonstration
+![](docs/img1.png)
+
 
 When we import multiple media files at once in AviUtl, these files are placed in multiple layers by default, which makes linear editing inconvenient. Therefore, this tool achieves the goal of placing all objects in a specified layer within a scene by changing the specific data in the AUP2 project file through external tools, avoiding tedious drag-and-drop operations.
 
