@@ -132,7 +132,7 @@ Issues と Pull Requests を歓迎します！
 
 ## 📄 ライセンス
 
-MIT ライセンス - [LICENSE](LICENSE) を参照
+MIT ライセンス - 詳細は [LICENSE](LICENSE) を参照してください
 
 ## 👨‍💻 開発者
 
