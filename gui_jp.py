@@ -56,12 +56,12 @@ class LayerChangeGUIPySide6(QMainWindow):
         self.setMinimumSize(700, 400)
 
         # Define font constants for easy maintenance and modification
-        self.default_font = QFont("Yu Gochic UI", 8)
-        self.default_font_bold = QFont("Yu Gochic UI", 8, QFont.Weight.Bold)
-        self.title_font = QFont("Yu Gochic UI", 9, QFont.Weight.Bold)
-        self.title_font_large = QFont("Yu Gochic UI", 9, QFont.Weight.Bold)
-        self.status_font = QFont("Yu Gochic UI", 8)
-        self.textbox_font = QFont("Yu Gochic UI", 8)
+        self.default_font = QFont("Yu Gothic UI", 8)
+        self.default_font_bold = QFont("Yu Gothic UI", 8, QFont.Weight.Bold)
+        self.title_font = QFont("Yu Gothic UI", 9, QFont.Weight.Bold)
+        self.title_font_large = QFont("Yu Gothic UI", 9, QFont.Weight.Bold)
+        self.status_font = QFont("Yu Gothic UI", 8)
+        self.textbox_font = QFont("Yu Gothic UI", 8)
 
         self.init_ui()
         self.setup_connections()
