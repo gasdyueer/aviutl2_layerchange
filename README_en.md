@@ -6,6 +6,46 @@
 
 Powerful AviUtl (AUP2) file layer processing tool with compact GUI design.
 
+## 🖼️ Feature Demonstration
+
+When we import multiple media files at once in AviUtl, these files are placed in multiple layers by default, which makes linear editing inconvenient. Therefore, this tool achieves the goal of placing all objects in a specified layer within a scene by changing the specific data in the AUP2 project file through external tools, avoiding tedious drag-and-drop operations.
+
+This method requires the use of the [parser](https://github.com/gasdyueer/aviutl2_aup2_parser) I wrote to parse, modify, and reorganize the AUP2 data structure. Currently, the [parser](https://github.com/gasdyueer/aviutl2_aup2_parser) is somewhat complex with extensive regular expression matching. Some data may fail to match, and while I've resolved some special data matching issues, there may be other matching problems I haven't discovered. The tool is usable in non-extreme scenarios.
+
+The following shows the structure of AUP2 data organization:
+
+```
+[project] Global information
+
+[scene.0] Scene 0 information
+    [0] Scene 0 layer object ID 0 (layer=0, scene=0, frame=0,80)
+        [0.0] Effect 1
+        [0.1] Effect 2
+    [1] Scene 0 layer object ID 1 (layer=0, scene=0, frame=81,161)
+        [1.0] Effect 1
+        [1.1] Effect 2
+    [2] Scene 0 layer object ID 2 (layer=1, scene=0, frame=0,80, focus=1)
+        [2.0] Effect 1
+        [2.1] Effect 2
+        [2.2] Effect 3
+
+[scene.1] Scene 1 information
+    [3] Scene 1 layer object ID 3 (layer=0, scene=1, frame=0,80)
+        [3.0] Effect 1
+        [3.1] Effect 2
+    [4] Scene 1 layer object ID 4 (layer=1, scene=1, frame=0,80)
+        [4.0] Effect 1
+        [4.1] Effect 2
+        [4.2] Effect 3
+    [5] Scene 1 layer object ID 5 (layer=1, scene=1, frame=81,161, focus=1)
+        [5.0] Effect 1
+        [5.1] Effect 2
+
+... (Subsequent scenes and their layer objects repeat this pattern)
+```
+
+Hope this inspires you.
+
 ## 🌍 Language Selection
 - [简体中文](./README.md) | [English](./README_en.md) | [日本語](./README_jp.md)
 
