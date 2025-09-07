@@ -1,0 +1,10 @@
+[project]
+name = "aviutl2-layerchange"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "auto-py-to-exe>=2.47.0",
+    "pyside6>=6.9.2",
+]
