@@ -1,4 +1,4 @@
-# AviUtl レイヤー変換ツール
+# AviUtl Layer Change Tool
 
 [![PySide6](https://img.shields.io/badge/PySide6-6.6.2-green)](https://pypi.org/project/PySide6/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
