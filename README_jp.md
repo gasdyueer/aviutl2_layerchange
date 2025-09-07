@@ -35,7 +35,7 @@
 
 ## 📦 クイックスタート
 
-### 方法1: ビルド済みの実行ファイル
+### 方法1: ビルド済みのファイルで実行
 ```bash
 # ダウンロードして直接実行
 aup2_layerchange_gui_jp.exe
@@ -46,7 +46,7 @@ aup2_layerchange_gui_jp.exe
 # 依存パッケージインストール
 pip install -r requirements.txt
 
-# GUI起動
+# GUI を起動
 python gui_jp.py
 ```
 
